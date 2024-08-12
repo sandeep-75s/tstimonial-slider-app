@@ -1,0 +1,125 @@
+
+
+.main-card{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    position: relative;
+    background-color: white;
+}
+.cir-div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(139 92 246 );
+    top: -75px;
+    left: 70px;
+}
+.img-div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    top: -70px;
+    left: 60px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.name{
+    /* margin-top: 50px; */
+    padding-top: 70px;
+    /* border: 2px solid black; */
+    font-size: 25px;
+}
+.job{
+    margin-top: -25px;
+    color:rgb(139 92 246 ) ;
+}
+.icon{
+    color: rgb(139 92 246 );
+}
+.btn-div{
+    width: 100px;
+    height: 40px;
+    /* border: 2px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    color: rgb(139 92 246 );
+    cursor: pointer;
+
+}
+.sup-btn{
+    margin-top: 30px;
+    width: 170px;
+    height: 50px;
+    background-color: rgb(139 92 246 );
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+@media (max-width:760px){
+    .cir-div{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: rgb(139 92 246 );
+        top: 0px;
+        /* left: 0px; */
+        left: 40%;
+    }
+    .img-div{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        top: 0px;
+        left: 38%
+    }
+    .name{
+        padding-top: 0px;
+    }
+    .main-card{
+        height: 130%;
+    }
+}
+@media (max-width:620px){
+    .cir-div{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: rgb(139 92 246 );
+        top: 0px;
+        /* left: 0px; */
+        left: 35%;
+    }
+    .img-div{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        top: 0px;
+        left: 30%
+    }
+    .name{
+        padding-top: 0px;
+    }
+    .main-card{
+        height: 130%;
+    }
+}
