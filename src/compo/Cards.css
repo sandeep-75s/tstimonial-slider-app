@@ -22,3 +22,9 @@
     width: 100%;
     height: 80%;
 }
+
+@media(max-width:760px){
+    .cards{
+        margin : -50px;
+    }
+}
